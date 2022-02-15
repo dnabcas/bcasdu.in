@@ -1,0 +1,21 @@
+<style>
+.flex-container {
+  display: flex;
+  box-sizing:border-box;
+  width:99%;
+  margin: 0.66rem;
+  padding: 1.2rem;
+  background-color: #F2F2F2;
+    justify-content: space-between;
+  }
+  
+.flex-container > div {
+  flex-grow: 1;
+  background-color: #F2F2F2;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  margin: 0.2rem 0.2rem;
+  font-family: "Open Sans", sans-Serif;
+  font-size: 0.9rem;
+}
+</style>
